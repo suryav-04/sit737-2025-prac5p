@@ -31,7 +31,7 @@ cd C:\SIT737 Prac\sit737-2025-prac5
 
 git init
 
-git remote add origin https://github.com/suryav-04/simple-web-app.git
+git remote add origin https://github.com/suryav-04/sit737-2025-prac5p.git
 
 git add .
 
