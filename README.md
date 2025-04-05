@@ -23,6 +23,10 @@ docker tag simple-web-app suryavignesh04/simple-web-app
 
 docker push suryavignesh04/simple-web-app
 
+health check
+
+docker ps
+
 Setting Up the GitHub Repository
 
 Initialized Git in the project directory: 
