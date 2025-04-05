@@ -27,6 +27,14 @@ health check
 
 docker ps
 
+interval: Run the check every 30 seconds.
+
+timeout: Fail the check if it takes longer than 10 seconds.
+
+retries: If it fails 3 times in a row, mark it as unhealthy.
+
+restart: always: Docker will restart the container if it stops or becomes unhealthy.
+
 Setting Up the GitHub Repository
 
 Initialized Git in the project directory: 
