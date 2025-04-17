@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sit737-node-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: sit737-node
+  template:
+    metadata:
+      labels:
+        app: sit737-node
+    spec:
+      containers:
+      - name: sit737-container
+        image: suryavignesh04/sit737-prac5p:v1
+        ports:
+        - containerPort: 3000
